@@ -68,3 +68,57 @@ bando.
 - [`bibfileTemplate.bib`](bibfileTemplate.bib): bibliografia;
 - [`Immagini/`](Immagini/): immagini del documento;
 - [`main.pdf`](main.pdf): versione PDF del modello.
+
+## English instructions
+
+This repository contains a **template** for the PhD research project. The
+official call for applications always takes precedence over this template.
+
+### Important: follow the official call
+
+Before submitting the document, carefully check the current official call for
+applications and comply with all its requirements, including the requested
+sections, order, character limits, content, formatting, deadlines, and
+submission procedures.
+
+### Using the template
+
+Replace the placeholders in [`main.tex`](main.tex), such as
+`Firstname Lastname`, `NNNN`, and `Insert text...`. Replace the example
+bibliographic entries with relevant and verifiable sources.
+
+Before submitting the final document, remove all user guidance and the
+corresponding commands:
+
+- `\limit{...}` and the text inside the parentheses;
+- `\instruction{...}` and the explanatory text shown in red.
+
+These elements are only editing instructions and must not appear in the final
+version.
+
+### Images
+
+Keep all images used by the document inside the
+[`Immagini/`](Immagini/) folder. Do not move or rename the logo without
+updating its relative path in the template.
+
+The current header logo is
+[`Immagini/logounict.png`](Immagini/logounict.png). Any additional image should
+also be referenced using a relative path, for example:
+
+```latex
+\includegraphics[width=0.8\textwidth]{Immagini/image-name.png}
+```
+
+### Bibliography
+
+The bibliography is stored in [`bibfileTemplate.bib`](bibfileTemplate.bib).
+Replace the example entries with relevant and verifiable references and cite
+them in the text using:
+
+```latex
+\cite{entry-key}
+```
+
+The final bibliography must comply with the limits and requirements specified
+in the official call.
