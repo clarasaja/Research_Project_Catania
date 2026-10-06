@@ -1,5 +1,7 @@
 # Modello LaTeX per il Research Project
 
+🇬🇧 **English instructions are provided in the section below.** 🇬🇧
+
 ## Benvenuti ai contributi
 
 Ogni modifica e miglioramento è benvenuto. Sentitevi liberi di fare un fork
