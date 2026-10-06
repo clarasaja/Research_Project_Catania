@@ -32,19 +32,19 @@ all'utente e i relativi comandi:
 Questi elementi servono solo come guida durante la compilazione del progetto e
 non devono comparire nella versione finale.
 
-## Immagini
+## Images
 
 Lasciare tutte le immagini usate dal documento nella cartella
-[`Immagini/`](Immagini/). Non spostare o rinominare il logo senza aggiornare il
+[`images/`](images/). Non spostare o rinominare il logo senza aggiornare il
 percorso nel modello.
 
 Il logo attualmente usato nell'intestazione è
-[`Immagini/logounict.png`](Immagini/logounict.png). Anche eventuali nuove
+[`images/logounict.png`](images/logounict.png). Anche eventuali nuove
 immagini devono essere referenziate con il percorso relativo corretto, ad
 esempio:
 
 ```latex
-\includegraphics[width=0.8\textwidth]{Immagini/nome-immagine.png}
+\includegraphics[width=0.8\textwidth]{images/nome-immagine.png}
 ```
 
 ## Bibliografia
@@ -66,7 +66,7 @@ bando.
 - [`researchproject.sty`](researchproject.sty): stile, margini, intestazione e
   frontespizio;
 - [`bibfileTemplate.bib`](bibfileTemplate.bib): bibliografia;
-- [`Immagini/`](Immagini/): immagini del documento;
+- [`images/`](images/): immagini del documento;
 - [`main.pdf`](main.pdf): versione PDF del modello.
 
 ## English instructions
@@ -99,15 +99,15 @@ version.
 ### Images
 
 Keep all images used by the document inside the
-[`Immagini/`](Immagini/) folder. Do not move or rename the logo without
+[`images/`](images/) folder. Do not move or rename the logo without
 updating its relative path in the template.
 
 The current header logo is
-[`Immagini/logounict.png`](Immagini/logounict.png). Any additional image should
+[`images/logounict.png`](images/logounict.png). Any additional image should
 also be referenced using a relative path, for example:
 
 ```latex
-\includegraphics[width=0.8\textwidth]{Immagini/image-name.png}
+\includegraphics[width=0.8\textwidth]{images/image-name.png}
 ```
 
 ### Bibliography
