@@ -4,4 +4,14 @@
 *.log
 *.out
 *.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.xdv
+*.pdf
 .DS_Store
