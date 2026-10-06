@@ -13,5 +13,4 @@
 *.bcf
 *.run.xml
 *.xdv
-*.pdf
 .DS_Store
