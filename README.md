@@ -1,5 +1,10 @@
 # Modello LaTeX per il Research Project
 
+## Benvenuti ai contributi
+
+Ogni modifica e miglioramento è benvenuto. Sentitevi liberi di fare un fork
+del repository, apportare le vostre modifiche e aprire una pull request (PR).
+
 Questo repository contiene un **modello** per il progetto di ricerca del PhD.
 Il file da compilare e modificare è [`main.tex`](main.tex), mentre
 [`researchproject.sty`](researchproject.sty) contiene le impostazioni grafiche
